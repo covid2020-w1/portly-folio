@@ -1,0 +1,145 @@
+.left-page{
+    background: url('../images/left-arrow.svg') no-repeat 0;
+    background-size: 16px 16px;
+    padding-left: 19px;
+    flex: 1;
+    text-decoration: none;
+}
+
+.left-page:hover {
+    text-decoration: underline;
+}
+
+.right-page{
+    background: url('../images/right-arrow.svg') no-repeat 100% 0;
+    background-size: 16px 16px;
+    padding-right: 19px;
+    flex: 1;
+    text-decoration: none;
+}
+.right-page:hover{
+    text-decoration: underline;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about{
+    background-color: lightpink;
+}
+
+body{
+    background-color: lightcyan;
+}
+
+main{
+    display: block;
+    margin: auto;
+}
+
+.coworkers{
+    background-color: beige;
+    border-radius: 10px;
+}
+
+
+.goals{
+    background-color: plum;
+    border-radius: 10px;
+}
+
+h1{
+    float: left;
+    margin-left: 10px;
+    margin-right: 800px;
+}
+
+
+h2{
+    text-align: center;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 5px;
+    z-index: 3;
+}
+
+.inspiration{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.logo{
+    width: 70px;
+}
+
+.portal-specs{
+    display: flex;
+}
+
+.project{
+    background-color: lightblue;
+    border-radius: 10px;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    max-width: 400px;
+    transition: transform .4s;
+}
+
+img:hover{
+    transform: scale(1.3);
+}
+
+figcaption{
+    text-align: center;
+}
+
+.finished-product{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    border-radius: 10px;
+}
+
+.rec{
+    background-color: lightsalmon;
+    border-radius: 10px;
+}
+
+.reflection{
+    background-color: yellowgreen;
+    border-radius: 10px;
+}
+
+section{
+    border-radius: 10px;
+    padding: 5px 10px 10px 10px;
+    margin-bottom: 15px;
+}
+
+.wireframes{
+    display: flex;
+}
+
+
+
+

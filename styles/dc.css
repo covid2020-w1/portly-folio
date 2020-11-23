@@ -1,0 +1,215 @@
+@font-face {
+    font-family: 'abhaya_libreregular';
+    src: url('fonts/abhayalibre-regular-webfont.woff2') format('woff2'),
+         url('fonts/abhayalibre-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'source_sans_prosemibold';
+    src: url('fonts/sourcesanspro-semibold-webfont.woff2') format('woff2'),
+         url('fonts/sourcesanspro-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* normal selectors, alphabetical */
+body{
+    font-size: 10px;
+    font-family: 'abhaya_libreregular';
+}
+
+figcaption{
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.2rem;
+    padding-right: 20px;
+}
+
+figure{
+    margin: 0px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+h1, h2, h3{
+    font-family: 'source_sans_prosemibold';
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+h2{
+    font-size: 2rem;
+    text-align: center;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background: linear-gradient(rgba(128,128,128,2), rgb(255,255,255, 0) );
+    margin-bottom: 10px;
+}
+
+p{
+    font-size: 1.3rem;
+}
+
+
+
+/* class selectors, alphabetical */
+
+.about{
+    background-color: lightgray;
+    border-radius: 5px;
+    flex: 1;
+    margin: 10px;
+
+}
+
+.back{
+    flex: 1;
+}
+
+.goals{
+    background-color: lightgray;
+    border-radius: 5px;
+    flex: 1;
+    margin: 10px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex-item{
+    flex: 1;
+}
+
+.flex-3{
+    display: flex;
+    justify-content: space-around;
+    background-color: lightgray;
+    border: solid black 1px;
+    padding: 0px 500px;
+}
+
+.left-page{
+    background: url('../images/left-arrow.svg') no-repeat 0;
+    background-size: 16px 16px;
+    padding-left: 19px;
+    flex: 1;
+    text-decoration: none;
+}
+
+.left-page:hover {
+    text-decoration: underline;
+}
+
+.project{
+    background-color: lightgray;
+    border-radius: 5px;
+}
+
+.rec{
+    background-color: lightgray;
+    border-radius: 5px;
+    padding-bottom: 2%;
+}
+
+.right-page{
+    background: url('../images/right-arrow.svg') no-repeat 100% 0;
+    background-size: 16px 16px;
+    padding-right: 19px;
+    flex: 1;
+    text-decoration: none;
+}
+.right-page:hover{
+    text-decoration: underline;
+}
+
+
+/* ID selectors */
+#carousel{
+    margin-top: -15px;
+}
+
+#carousel:hover{
+    border: solid purple 2px;
+    padding: 2px;
+}
+
+#hawley{
+    width: 400px;
+}
+
+#lede-bad{
+    width: 400px;
+}
+
+#lede-good{
+    display: block;
+    margin-left: auto;
+}
+
+#lincoln{
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo{
+    max-width: 50px;
+    border-radius: 50%;
+}
+
+#notes-attempt{
+    display: block;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#rec-drew{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#redlines{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+#reporter-questions{
+    width: 400px;
+}
+
+#quotes{
+    max-width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
